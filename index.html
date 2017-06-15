@@ -1,0 +1,643 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <title>AAGECA</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="fonts/flaticon.css">
+		<link rel="stylesheet" href="css/animate.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
+
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyBNnY5KtJ0Q5g9fgPXx_Jn-ivm1HhiRDlY",
+            authDomain: "aageca-e5ff8.firebaseapp.com",
+            databaseURL: "https://aageca-e5ff8.firebaseio.com",
+            projectId: "aageca-e5ff8",
+            storageBucket: "aageca-e5ff8.appspot.com",
+            messagingSenderId: "486797841472"
+          };
+          firebase.initializeApp(config);
+        </script>
+		<script src="js/reveal.js"></script>
+
+
+    </head>
+    <body>
+<!--     	<div class="loader">
+    		<div class="spinner">
+			  <div class="double-bounce1"></div>
+			  <div class="double-bounce2"></div>
+			</div>
+    	</div> -->
+				
+		<div class="nav-container">
+			<nav class="fullscreen-nav overlay-bar">
+			
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="index.html">
+								<img alt="logo" class="outer-logo" src="img/logo-light.png">
+							</a>
+						</div>
+					</div>
+				</div>	
+			
+				<div class="fullscreen-nav-toggle">
+					<i class="icon icon_menu"></i>
+					<i class="icon icon_close"></i>
+				</div>
+				
+				<div class="fullscreen-nav-container">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12">
+								<a href="index.html">
+									<img class="logo" alt="Logo" src="img/logo-light.png">
+								</a>
+								<ul class="menu">
+									<li><a href="#">Home</a></li>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Work</a></li>
+									<li><a href="#">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+				</div>	
+			</nav>
+		</div>
+		<div class="main-container">
+			<section class="hero-slider">
+				<ul class="slides">
+					<li class="overlay">
+						<div class="background-image-holder parallax-background">
+							<img class="background-image" alt="Background Image" src="img/hero15.jpg">
+						</div>
+						
+						<div class="container align-vertical">
+							<div class="row">
+								<div class="col-md-6 col-sm-9">
+									<h1 class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, ducimus.</h1>
+								
+									<a href="login.php" class="btn btn-primary btn-filled">LOG IN</a>
+								</div>
+							</div>
+						</div><!--end of container-->
+					</li><!--end of individual slide-->
+					
+					<!--end of individual slide-->
+					
+					<li class="overlay">
+						<div class="background-image-holder parallax-background">
+							<img class="background-image" alt="Background Image" src="img/hero7.jpg">
+						</div>
+						
+						<div class="container align-vertical">
+							<div class="row">
+								<div class="col-md-6 col-sm-9">
+									<h1 class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, ducimus.</h1>
+									<a href="#" class="btn btn-primary btn-filled" >Discover More</a>
+								</div>
+							</div>
+						</div><!--end of container-->
+					</li><!--end of individual slide-->
+					
+					<li class="overlay">
+						<div class="background-image-holder parallax-background">
+							<img class="background-image" alt="Background Image" src="img/hero9.jpg">
+						</div>
+						
+						<div class="container align-vertical">
+							<div class="row">
+								<div class="col-md-6 col-sm-9">
+									<h1 class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, ducimus.</h1>
+									<a href="#" onclick="$('#hallOfFame').animatescroll({scrollSpeed:2000,easing:'easeOutBack'});" class="btn btn-primary btn-filled">Notables</a>
+								</div>
+							</div>
+						</div><!--end of container-->
+					</li><!--end of individual slide-->
+				</ul>
+			</section>
+			<section class="text-banner">
+				<div class="container text-center">
+				<li style="list-style-type: none;"><i style="font-size: 40px;color: #3498db" class="flaticon-group-of-men"></i></li>
+					<div class="row">
+						<div class="col-sm-12">
+							
+							<h1 class="center-block"  >Let's connect the Alma dots...</h1>
+						</div>
+					</div><!--end of row-->
+					<div class="row">
+						<div class="col-sm-10 col-sm-offset-1">
+							<p class="lead">
+								Alumni association of Government College of Engineering, Aurangabad (AAGECA) fosters the link between students and the alumni. It is a step taken towards creating various opportunities for the students. They can get help from the alumnus for various activities like internship programs, project guidance for Students, Sponsorship, Student-aid scheme, Prize distribution events etc.
+							</p>
+						</div>
+					</div><!--end of row-->
+					<div class="row">
+						<div class="col-md-12">
+							<a href="aageca.html" class="btn btn-primary wow fadeIn" data-wow-delay="0.2s">Read More</a>
+						</div>
+					</div><!--end of row-->
+				</div>
+			</section>
+			
+			<section class="duplicatable-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="feature wow fadeIn" data-wow-delay="0.2s">
+								<h5>Aim #1</h5>
+								<p>
+									AAGECA is an organization through which the alumni of the institute can keep in touch with the students, faculty, and staff of the institute, the activities of the institute and with one another.   
+								</p>
+							</div>
+						</div><!--end 4 col-->
+					
+						<div class="col-sm-4">
+							<div class="feature wow fadeIn" data-wow-delay="0.4s">
+								<h5>Aim #2</h5>
+								<p>
+									AAGECA enables the institute to help in the different assistance required by the industry. It also provides testing and consultancy to the Alumni of the college in different fields of Engineering and Technology. 
+								</p>
+							</div>
+						</div><!--end 4 col-->
+					
+						<div class="col-sm-4">
+							<div class="feature wow fadeIn" data-wow-delay="0.6s">
+								<h5>Aim #3</h5>
+								<p>
+									Arrange any activity for the benefit of students, alumni and the faculty of the institute. AAGEGA helps students of the institute on basis of merit in the form of scholarship. 
+								</p>
+							</div>
+						</div><!--end 4 col-->
+					</div><!--end of row-->
+				</div>
+			</section>
+			        <div class="row">
+			            <div class="col-lg-12">
+			                <ul class="timeline wow fadeIn">
+			                    <li>
+			                        <div class="timeline-image wow fadeIn" data-wow-delay="0.1s">
+			                            <img class="img-circle img-responsive" src="img/1.jpg" alt="">
+			                        </div>
+			                        <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.2s">
+			                            <div class="timeline-heading">
+			                                <h4 class="blueText" ><b>15 AUGUST 2010</b></h4>
+			                                <h4 class="subheading">Our Humble Beginnings</h4>
+			                            </div>
+			                            <div class="timeline-body wow fadeInLeftBig" data-wow-delay="0.2s">
+			                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+			                            </div>
+			                        </div>
+			                    </li>
+			                    <li class="timeline-inverted">
+			                        <div class="timeline-image wow fadeIn" data-wow-delay="0.3s">
+			                            <img class="img-circle img-responsive" src="img/2.png" alt="">
+			                        </div>
+			                        <div class="timeline-panel wow fadeInRight" data-wow-delay="0.6s">
+			                            <div class="timeline-heading">
+			                                <h4 class="blueText" ><b>2011</b></h4>
+			                                <h4 class="subheading">Expanding Horizons</h4>
+			                            </div>
+			                            <div class="timeline-body wow fadeInRightBig" data-wow-delay="0.6s">
+			                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+			                            </div>
+			                        </div>
+			                    </li>
+			                    <li>
+			                        <div class="timeline-image wow fadeIn" data-wow-delay="0.7s">
+			                            <img class="img-circle img-responsive" src="img/timeline/3.1.png" alt="">
+			                        </div>
+			                        <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.8s">
+			                            <div class="timeline-heading">
+			                                <h4 class="blueText" ><b>2015</b></h4>
+			                                <h4 class="subheading">5 years of Glory </h4>
+			                            </div>
+			                            <div class="timeline-body wow fadeInLeftBig" data-wow-delay="0.8s">
+			                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+			                            </div>
+			                        </div>
+			                    </li>
+			  
+			                    <li class="timeline-inverted wow fadeIn" data-wow-delay="1s">
+			                        <div class="timeline-image">
+			                            <h4>And
+			                                <br>here
+			                                <br>We are now!</h4>
+			                        </div>
+			                    </li>
+			                </ul>
+			            </div>
+			        </div>
+			    </div>
+			</section>
+			<section class="hero-divider">
+			
+				<div class="background-image-holder satOverlay">
+					<img class="background-image" alt="Poster Image For Mobiles" src="img/satTeam.png">
+				</div>
+			
+
+				
+				<div class="container">
+					<div class="row">	
+						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+							<h1 style="font-size: 60px;" class="text-white">The <b> SAT</b> </h1>
+							<!-- <h2 class="text-black"><b>A bridge between Alumni and Students. The <b> SAT</b> - Student Alumni Team is a part of AAGECA.</b></h2> -->
+							<p class="lead text-white">
+								A bridge between Alumni and Students. The <b> SAT</b> - Student Alumni Team is a part of AAGECA. 
+							</p>
+							<a href="sat.html" class="btn btn-white btn-primary wow fadeIn" data-wow-delay="0.2s">Read More</a>
+						</div>
+					</div><!--end of row-->
+				</div><!--end of row-->
+			</section>
+			
+			<section class="product-right">
+			
+				<div class="background-image-holder">
+					<img class="background-image" alt="Background Image" src="img/grey-bg.jpg">
+				</div>
+				
+				<div class="container align-vertical">
+					<div class="row">
+						<div class="col-md-5 col-sm-6">
+							<h1>Back to <b>GECA....</b></h1>
+							<p class="lead">
+								We've changed a lot in recent years. We become more stronger than ever. Take the tour ti see what is changed since Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+							</p>
+							<a href="#" class="btn btn-primary wow fadeIn" data-wow-delay="0.2s" data-toggle="modal" data-target="#myModal">Take the Tour</a>
+
+							<!-- Modal -->
+							<div id="myModal" class="modal fade" role="dialog">
+							  <div class="modal-dialog modal-lg">
+
+							    <!-- Modal content-->
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal">&times;</button>
+							        <h4 class="modal-title">Modal Header</h4>
+							      </div>
+							      <div class="modal-body">
+							 				<!-- <iframe src="//slides.com/saurabhkulkarni/deck/embed" width="100%" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+							 				<!-- <iframe src='https://onedrive.live.com/embed?cid=BEFADD4CAB446FBD&resid=BEFADD4CAB446FBD%21123875&authkey=AK72hq-eS-kYeY0&em=2&wdAr=1.7777777777777777' width='1186px' height='691px' frameborder='0'>This is an embedded <a target='_blank' href='https://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office Online</a>.</iframe> -->
+
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+
+							  </div>
+							</div>
+						</div>
+					</div><!--end of row-->
+				</div><!--end of container-->
+				
+				<div class="product-image" data-scroll-reveal="enter right and move 100px">
+					<img alt="Product Image" src="img/clg.png">
+				</div>
+			
+			</section>
+			
+			<section class="no-pad-bottom  projects-gallery evnets eventsNews">
+				<div class="row ">
+					<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+						<h1>Euphoria of <b>GECA</b></h1>
+						<p class="lead">
+							Get in Touch with all latest activities going in our college. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+						</p>
+					</div>
+				</div>
+				<div class="projects-wrapper clearfix">
+					
+					<div class="projects-container">
+						
+						<div class="col-md-6 col-sm-12 no-pad project development image-holder">
+													<div class="background-image-holder">
+														<img class="background-image" alt="Background Image" src="img/swGooglepng.png">
+													</div>
+													<div class="hover-state">
+														<div class="align-vertical">
+															<h1 class="text-white"><b>Events</b></h1>
+															<p class="text-white">
+																EVERYTHING FROM <b>AAGECA</b> HOUSE... 
+															</p>
+															<a href="events.html" class="btn btn-primary btn-white">See Events</a>
+														</div>
+													</div>
+												</div><!--end of individual project-->
+												
+												<div class="col-md-6 col-sm-12 no-pad project development image-holder">
+													<div class="background-image-holder">
+														<img class="background-image" alt="Background Image" src="img/news.jpg">
+													</div>
+													<div class="hover-state">
+														<div class="align-vertical">
+															<h1 class="text-white"><strong>Newsroom</strong></h1>
+															<p class="text-white">
+																Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+															</p>
+															<a href="events.html" class="btn btn-primary btn-white">See News</a>
+														</div>
+													</div>
+												</div><!--end of individual project-->
+						
+
+					
+					</div><!--end of projects-container-->
+					
+				</div><!--end of projects wrapper-->
+				
+			</section>
+			
+
+			<section class="member">
+							<div class="background-image-holder parallax-background">
+								<img class="background-image" alt="Background Image" src="img/hero10.jpg">
+							</div>
+							
+							<div class="container align-vertical">
+								<div class="row">
+									<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+										<h1 class="text-white alumniHeader">The <b> Alumni Association</b> </h1>
+										<p class="lead text-white">
+											Come Join us as we connect <b>GECA Family</b> around the world to achieve the vision! Does not matter, where you live and what you do. Just bring the spirit along, refresh you memories and join the upcoming AAGECA events!
+
+										</p>
+										<a href="login.html" class="btn btn-white btn-primary">Become a Member</a>
+										<button class="btn btn-filled btn-primary showPrice">See the Pricing</button>
+
+										
+									</div>
+									<div class="priceholder">
+										<div class="priceDivders center col-md-offset-2 col-md-4">
+												<h2 class="priceTag text-white"><b>₹ 2000</b></h2>
+												<p class="text-white" >Life Member</p>
+										</div>
+										<div class="priceDivders center col-md-offset-2 col-md-4">
+											<h2 class="priceTag text-white"><b>₹ 30,000<span style="font-size: 20px;" ></span></b></h2>
+											<p class="text-white" >Patron Member</p>
+										</div>
+									</div>	
+								</div>
+							</div><!--end of container-->
+			</section>
+
+			<section id="hallOfFame">
+				<div class="container">
+					<div class="row">
+						<div class="owl-carousel owl-theme">
+						    <div class="item center">
+						    		<div class="team-2-member">
+						    			<div class="image-holder">
+						    				<img alt="Team Member" class="background-image alumniImage" src="img/team-large-1.jpg">
+						    				<div class="hover-state">
+						    					<ul class="social-icons align-vertical">
+						    						<li>
+						    							<a href="#">
+						    								<p class="alumniIntro">Lorem ipsum dolor sit.</p>
+						    							</a>
+						    						</li>
+						    					</ul>	
+						    				</div>
+						    			</div>
+						    			<div class="alumniDetails">
+						    				<h3 class="alumniName"> Mr. John Doe</h3>
+						    				<h5 class="alumniBatch"> CSE 2002</h5>
+						    			</div>
+						    		</div>
+						    </div>
+
+						    <div class="item center">
+						    		<div class="team-2-member">
+						    			<div class="image-holder">
+						    				<img alt="Team Member" class="background-image" src="img/team-large-1.jpg">
+						    				<div class="hover-state">
+						    					<ul class="social-icons align-vertical">
+						    						<li>
+						    							<a href="#">
+						    								<p>Lorem ipsum dolor sit.</p>
+						    							</a>
+						    						</li>
+						    					</ul>	
+						    				</div>
+						    			</div>
+						    			<div class="alumniDetails">
+						    				<h3 class="alumniName"> Mr. John Doe</h3>
+						    				<h5 class="alumniBatch"> CSE 2002</h5>
+						    			</div>
+						    		</div>
+						    </div>
+
+						    <div class="item center">
+						    		<div class="team-2-member">
+						    			<div class="image-holder">
+						    				<img alt="Team Member" class="background-image" src="img/team-large-1.jpg">
+						    				<div class="hover-state">
+						    					<ul class="social-icons align-vertical">
+						    						<li>
+						    							<a href="#">
+						    								<p>Lorem ipsum dolor sit.</p>
+						    							</a>
+						    						</li>
+						    					</ul>	
+						    				</div>
+						    			</div>
+						    			<div class="alumniDetails">
+						    				<h3 class="alumniName"> Mr. John Doe</h3>
+						    				<h5 class="alumniBatch"> CSE 2002</h5>
+						    			</div>
+						    		</div>
+						    </div>
+
+						    <div class="item center">
+						    		<div class="team-2-member">
+						    			<div class="image-holder">
+						    				<img alt="Team Member" class="background-image" src="img/team-large-1.jpg">
+						    				<div class="hover-state">
+						    					<ul class="social-icons align-vertical">
+						    						<li>
+						    							<a href="#">
+						    								<p>Lorem ipsum dolor sit.</p>
+						    							</a>
+						    						</li>
+						    					</ul>	
+						    				</div>
+						    			</div>
+						    			<div class="alumniDetails">
+						    				<h3 class="alumniName"> Mr. John Doe</h3>
+						    				<h5 class="alumniBatch"> CSE 2002</h5>
+						    			</div>
+						    		</div>
+						    </div>
+
+						    <div class="item center">
+						    		<div class="team-2-member">
+						    			<div class="image-holder">
+						    				<img alt="Team Member" class="background-image" src="img/team-large-1.jpg">
+						    				<div class="hover-state">
+						    					<ul class="social-icons align-vertical">
+						    						<li>
+						    							<a href="#">
+						    								<p>Lorem ipsum dolor sit.</p>
+						    							</a>
+						    						</li>
+						    					</ul>	
+						    				</div>
+						    			</div>
+						    			<div class="alumniDetails">
+						    				<h3 class="alumniName"> Mr. John Doe</h3>
+						    				<h5 class="alumniBatch"> CSE 2002</h5>
+						    			</div>
+						    		</div>
+						    </div>
+
+						    <div class="item center">
+						    		<div class="team-2-member">
+						    			<div class="image-holder">
+						    				<img alt="Team Member" class="background-image" src="img/team-large-1.jpg">
+						    				<div class="hover-state">
+						    					<ul class="social-icons align-vertical">
+						    						<li>
+						    							<a href="#">
+						    								<p>Lorem ipsum dolor sit.</p>
+						    							</a>
+						    						</li>
+						    					</ul>	
+						    				</div>
+						    			</div>
+						    			<div class="alumniDetails">
+						    				<h3 class="alumniName"> Mr. John Doe</h3>
+						    				<h5 class="alumniBatch"> CSE 2002</h5>
+						    			</div>
+						    		</div>
+						    </div>
+
+						    <div class="item center">
+						    		<div class="team-2-member">
+						    			<div class="image-holder">
+						    				<img alt="Team Member" class="background-image" src="img/team-large-1.jpg">
+						    				<div class="hover-state">
+						    					<ul class="social-icons align-vertical">
+						    						<li>
+						    							<a href="#">
+						    								<p>Lorem ipsum dolor sit.</p>
+						    							</a>
+						    						</li>
+						    					</ul>	
+						    				</div>
+						    			</div>
+						    			<div class="alumniDetails">
+						    				<h3 class="alumniName"> Mr. John Doe</h3>
+						    				<h5 class="alumniBatch"> CSE 2002</h5>
+						    			</div>
+						    		</div>
+						    </div>
+
+						    
+						</div>
+				</div>
+			</section>
+
+			
+ 			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+							<i class="icon icon-jumbo social_twitter color-twitter"></i>
+							<i style="padding: 0px 15px 0px 15px" class="icon icon-jumbo social_facebook color-facebook"></i>
+							<i class="icon icon-jumbo social_linkedin color-linkedin"></i>
+							<div id="tweets" data-widget-id="492085717044981760">
+							
+							</div>
+							<p>
+								Follow us <strong><a href="#">@aageca</a></strong> for more awesome updates
+							</p>
+						</div>
+					</div>
+				 </div>
+			</section>  
+
+			<section id="container">
+				
+			</section>
+
+		<div class="footer-container">
+			<footer class="newFooter short-2">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<span class=""><img style="margin-bottom: 15px;" height="35"  src="img/logo-dark.png" alt=""><br><p>Alumni Association of Government College of Engineering,<br> Aurangabad</p></span>
+							<span class=""><a href="#">info@aageca.org</a></span>
+							<span class="">+614 3827 492</span>
+							<span class="">Station Road, Ousmanpura, Aurangabad.</span>
+						</div>
+					</div><!--end for row-->
+				</div>
+
+			</footer>
+		</div>
+				
+				<script src="js/jquery.min.js"></script>
+				<script src="js/owl.carousel.min.js"></script>
+		        <script src="js/jquery.plugin.min.js"></script>
+		        <script src="js/bootstrap.min.js"></script>
+		        <script src="js/jquery.flexslider-min.js"></script>
+		        <script src="js/smooth-scroll.min.js"></script>
+		        <script src="js/skrollr.min.js"></script>
+		        <script src="js/spectragram.min.js"></script>
+		        <script src="js/scrollReveal.min.js"></script>
+		        <script src="js/isotope.min.js"></script>
+		        <script src="js/lightbox.min.js"></script>
+		        <script src="js/jquery.countdown.min.js"></script>
+		        <script src="js/scripts.js"></script>
+		        <script src="js/animatescroll.min.js"></script>
+		        <script src="js/wow.min.js"></script>
+		        <script>
+
+		        	new WOW().init(); 
+
+		        	$('.owl-carousel').owlCarousel({
+		        		autoplay: 100,
+		        	    loop:true,
+		        	    items:1,
+		        	    margin:30,
+		        	    stagePadding:30,
+		        	    smartSpeed:450,
+		        	    responsive:{
+		        	        0:{
+		        	            items:1
+		        	        },
+		        	        600:{
+		        	            items:3
+		        	        },
+		        	        1000:{
+		        	            items:5
+		        	        }
+		        	    }
+		        	});
+		        </script>
+
+
+		
+
+
+    </body>
+</html>
+				
