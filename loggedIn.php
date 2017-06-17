@@ -285,7 +285,7 @@
           $('.logoutBtn').click( function() {
             firebase.auth().signOut();
             console.log("logged out...")
-            window.location.replace("login.php");
+            window.location.replace("signIn.html");
             firebase.auth().onAuthStateChanged( function(user){
             });
           });

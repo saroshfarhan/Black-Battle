@@ -165,6 +165,7 @@ session_start();
 
              <div class="container">
                <div class="row">
+                <h2><a href="../loggedIn.php">HOME</a></h2>
                  <div class="col-sm-12 text-center detailsHeader">
                    <h3 style="color: #21a623" class="detailsHeader" >Profile Updated Successfully.... </h3>
                  </div>

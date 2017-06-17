@@ -1,0 +1,90 @@
+body {
+	font-family: 'Hero Light';
+	text-align: left;
+}
+#hugeNumber {
+	font-family: 'Hero Light';
+	font-size: 197px;
+	/*color: red;*/
+}
+#firstSlide{
+	text-align: left;
+}
+.introText{
+	position: absolute;
+	top: 50%;
+	height: 540px;
+	margin-top: -270px;
+	left: 100px;
+}
+#subText{
+	font-family: 'Hero Light';
+	font-size: 76px;
+	color: #FFF;
+	text-align: left;
+	width: 500px;
+	letter-spacing: -2px;
+	position: relative;
+	top: -55px;
+}
+.redText{
+	color: red;
+}
+.SecondaryTextClg{
+	font-family: 'Hero Light';
+	position: relative;
+	top: -55px;
+}
+/*Slide 2*/
+
+#slide2{
+	text-align: left;
+	margin-left: 55px;
+}
+
+section .clgYear{
+	font-family: 'Hero Light';
+	font-size: 100px;
+}
+
+section .slideTitle{
+	font-family: 'Hero';
+	color: #F44336;
+}
+
+section .slideSecTitle{
+	font-family: 'Hero Light';
+	position: relative;
+	top: -15px;
+}
+
+section .slideThirdTExt{
+	font-family: 'Hero Light';
+	font-size: 28px;
+}
+
+/*SLide 3*/
+#slide3, #slide4, #slide5{
+	margin-top: 65px;
+}
+#slide3_1, #slide4_1, #slide5_1, #slide6, #slide7_1, #slide7_2, #slide7_3,#slide8,#slide9,#slide10,#slide11{
+	text-align: left;
+	margin-left: 55px;
+}
+#slide7_1{
+	min-height:100%;
+	position:relative;
+}
+#slide7_1 .toppart{
+	height: 100%;
+}
+.arrowHolder {
+	text-align: center;
+
+}
+#slide7Arrow{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:60px;
+}
